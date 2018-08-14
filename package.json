@@ -1,0 +1,19 @@
+{
+  "name": "testgrid4",
+  "version": "1.0.0",
+  "description": "Testing Bootstrap Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo valor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blogdopata/testGrid4.git"
+  },
+  "author": "@blogdopata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blogdopata/testGrid4/issues"
+  },
+  "homepage": "https://github.com/blogdopata/testGrid4#readme"
+}
