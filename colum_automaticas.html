@@ -9,9 +9,19 @@
     <link rel="stylesheet" href="css/bootstrap.css">
 
     <style>
-        .row>div {
+        .row > div {
             text-align: center;
-            background-color: #f2f2f2;
+          
+            margin: 10px 0;
+        }
+        .uno{
+            background-color: red;
+        }
+        .dos{
+            background-color: rebeccapurple;
+        }
+        .tres{
+            background-color: yellow;
         }
     </style>
 
@@ -20,21 +30,47 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col uno">
                 <h3>COLIMNA #1</h3>
             </div>
-            <div class="col">
+            <div class="col dos col-md-auto">
                 <h3>COLIMNA #2</h3>
             </div>
 
 
-            <div class="col">
+            <div class="col tres">
                 <h3>COLIMNA #3</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>COLIMNA #1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic in consequuntur laudantium mollitia quibusdam saepe omnis, quasi vitae harum ea?</p>
+            </div>
+            <div class="col">
+                <h3>COLIMNA #2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic in consequuntur laudantium mollitia quibusdam saepe omnis, quasi vitae harum ea?</p>
+            </div>
+            
+            <div class="w-100"></div>
+
+            <div class="col tres">
+                <h3>COLIMNA #3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic in consequuntur laudantium mollitia quibusdam saepe omnis, quasi vitae harum ea?</p>
+            </div>
+            <div class="col tres">
+                <h3>COLIMNA #4</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic in consequuntur laudantium mollitia quibusdam saepe omnis, quasi vitae harum ea?</p>
             </div>
         </div>
 
     </div>
 
+
+    
 
 
 
