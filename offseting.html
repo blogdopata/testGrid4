@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Colim Horizonal </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <style>
+      .row{
+          background-color: #e8e8e8;
+          margin-top: 40px;
+          margin-bottom: 40px;
+      }
+      .colX{
+          background-color: #f2f2f2;
+          text-align: center;
+          padding: 10px;
+          border: 1px solid #000;
+      }
+    </style>
+
+</head>
+<body>
+  
+   <!-- offset : para empujar la columna-->
+<div class="container">
+    <div class="row justify-content-start">
+        <div class="colX col-auto offset-5"> Col 1</div>
+    </div>
+    <div class="row justify-content-start">
+        <div class="colX col-4 offset-4"> Col 1</div>
+    </div>
+    <div class="row justify-content-start">
+         <div class="colX col-auto offset-1"> Col 1</div>
+         <div class="colX col-auto offset-1"> Col 1</div>
+    </div>
+    <div class="row justify-content-start">
+            <div class="colX col-4 offset-1 offset-md-4 offset-lg-0"> Col 1</div>
+            
+    </div>
+ </div>
+
+
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
