@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 4 Time</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+        body {
+            position: relative;
+            padding-top: 54px;
+        }
+
+        .fm-nav a {
+            padding: 15px;
+            color: #fff;
+        }
+
+        .fm-nav .active, .fm-nav a:hover {
+            background: rgba(255,255,255,.1)
+        }
+        .section{
+            margin-bottom: 1000px;
+        }
+        .section .columna{
+            padding-top: 100px;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#fm-nav">
+
+
+    <div class="container">
+        <div class="row mt-4 mt-3 ">
+            <div class="" id="fm-nav">
+                <ul class="fm-nav nav fixed-top navbar-inverse bg-primary">
+                    <li class="nav-item">
+                        <a href="#section1" class="nav-link">Seccion 1</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section2" class="nav-link">Seccion 2</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section3" class="nav-link">Seccion 3</a>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="row section" id="section1">
+            <div class="col-12 columna">
+                <h2>Seccion 1</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi veniam, nobis, sequi beatae esse numquam reiciendis mollitia
+                    quis ea molestias illum alias et necessitatibus recusandae ut debitis aliquid nihil delectus!
+                </p>
+            </div>
+        </div>
+
+        <div class="row section" id="section2">
+                <div class="col-12 columna">
+                    <h2>Seccion 2</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi veniam, nobis, sequi beatae esse numquam reiciendis mollitia
+                        quis ea molestias illum alias et necessitatibus recusandae ut debitis aliquid nihil delectus!
+                    </p>
+                </div>
+            </div>
+
+            <div class="row section" id="section3">
+                    <div class="col-12 columna">
+                        <h2>Seccion 3</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi veniam, nobis, sequi beatae esse numquam reiciendis mollitia
+                            quis ea molestias illum alias et necessitatibus recusandae ut debitis aliquid nihil delectus!
+                        </p>
+                    </div>
+                </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover({
+                content: 'A ESA ',
+                title: "va bueno",
+                trigger: 'hover',
+
+
+            });
+
+        })
+
+
+    </script>
+
+
+</body>
+
+</html>

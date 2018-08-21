@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 4 Time</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+
+<body>
+   
+
+    <div class="container-fluid  ">
+        <div class="row mt-4 mt-3 ">
+            <div class="col">
+                <h2> Popovers</h2>
+                <hr>
+                <button class="btn btn-primary" data-container="body" data-placement="right" data-toggle="popover"   >Arriba</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script>
+        $(function(){
+            $('[data-toggle="popover"]').popover({
+                content:'A ESA ',
+                title: "va bueno",
+                trigger: 'hover',
+           
+              
+            });
+
+        })
+
+
+    </script>
+
+
+</body>
+
+</html>
