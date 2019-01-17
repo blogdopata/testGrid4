@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <style>
+        body {
+            background-color: rebeccapurple;
+            color: white;
+            font-size: 20px;
+        }
+
+        main#flex {
+            margin: 1em;
+            border: 0.2em solid salmon;
+            background-color: deepskyblue;
+            display: flex;
+            flex-direction: column;
+            height: 20em;
+            align-items: center;
+            width: 35em;
+            flex-wrap: wrap;
+            padding: 1em;
+            justify-content: ;
+        }
+        article {
+            border: 1px solid #000;
+            padding: 10px;
+        }
+        .item1 {
+            background-color: peru;
+          
+        }
+        .item2 {
+            background-color: yellowgreen;
+            order: 0;
+           
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <main id="flex">
+        <article class="item1">
+            Soy item #1
+        </article>
+        <article class="item2">
+            Soy item #2
+        </article>
+        <article class="item1">
+            Soy item #3
+        </article>
+        <article class="item2">
+            Soy item #4
+        </article>
+        <article class="item1">
+            Soy item #5
+        </article>
+     
+      
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
